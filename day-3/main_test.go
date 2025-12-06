@@ -46,30 +46,30 @@ import (
 // 	}
 // }
 
-func Test2Input1(t *testing.T){
+func Test2Input1(t *testing.T) {
 	ans := largestTwelveJolts("987654321111111")
-	if ans != 987654321111{
+	if ans != 987654321111 {
 		t.Errorf("Test2Input1 wrong, wanted 987654321111, got %d", ans)
 	}
 }
 
-func Test2Input2(t *testing.T){
+func Test2Input2(t *testing.T) {
 	ans := largestTwelveJolts("811111111111119")
-	if ans != 811111111119{
+	if ans != 811111111119 {
 		t.Errorf("Test2Input1 wrong, wanted 811111111119, got %d", ans)
 	}
 }
 
-func Test2Input3(t *testing.T){
+func Test2Input3(t *testing.T) {
 	ans := largestTwelveJolts("234234234234278")
-	if ans != 434234234278{
+	if ans != 434234234278 {
 		t.Errorf("Test2Input1 wrong, wanted 434234234278, got %d", ans)
 	}
 }
 
-func Test2Input4(t *testing.T){
+func Test2Input4(t *testing.T) {
 	ans := largestTwelveJolts("818181911112111")
-	if ans != 888911112111{
+	if ans != 888911112111 {
 		t.Errorf("Test2Input1 wrong, wanted 888911112111, got %d", ans)
 	}
 }

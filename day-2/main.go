@@ -104,7 +104,7 @@ func part_2(filename string) int {
 	reading := string(file)
 	readings := strings.Split(reading, ",")
 	// defer file.Close()
-	for _, line := range readings{
+	for _, line := range readings {
 		// fmt.Println(item)
 		// line = strings.ReplaceAll(line, ",", "")
 		line = strings.ReplaceAll(line, "\n", "")

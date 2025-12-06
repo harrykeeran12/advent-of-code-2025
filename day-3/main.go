@@ -134,17 +134,16 @@ func largestTwelveJolts(bankString string) int {
 	fmt.Println(ignoredIndexes)
 
 	var joltString string
-	for _, ignored := range ignoredIndexes{
+	for _, ignored := range ignoredIndexes {
 		fmt.Println(ignored, string(bankString[ignored]))
 		joltString += string(bankString[ignored])
 	}
 	fmt.Println(joltString)
 
 	res, err := strconv.Atoi(joltString)
-	if err != nil{
+	if err != nil {
 		log.Fatal(err)
-}
-
+	}
 
 	return res
 }
